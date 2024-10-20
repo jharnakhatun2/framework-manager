@@ -1,0 +1,39 @@
+body,
+      html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 350px;
+        box-shadow: 0 0 10px rgb(192, 192, 192);
+        margin: auto;
+        padding: 30px;
+      }
+      .first,.second{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 0;
+      }
+
+      input{
+        outline: none;
+        height: 30px;
+        border: 1px solid rgb(194, 194, 194);
+        padding: 0 10px;
+      }
+      input:focus{
+        border: 1px solid rgb(238, 238, 238);
+        box-shadow: 0 0 5px rgb(238, 240, 139);
+      }
+      button{
+        background-color: #336eec;
+        border: none;
+        padding: 10px 0;
+        font-size: 14px;
+        color: aliceblue;
+        text-transform: capitalize;
+      }

@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic Framework Manager</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <label for="framework">Framework :</label>
+        <input type="text" id="framework" placeholder="Framework name" />
+        <button>Add</button>
+      </div>
+      <div class="second">
+        <label for="list">Framework List :</label>
+        <select id="list" multiple></select>
+        <button>Remove Selected Framework</button>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
